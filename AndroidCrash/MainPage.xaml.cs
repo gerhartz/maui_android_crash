@@ -33,7 +33,10 @@ public partial class MainPage : ContentPage
     {
         Content = new VerticalStackLayout()
         {
-            Control
+            Children =
+            {
+                Control
+            }
         };
     }
 }
